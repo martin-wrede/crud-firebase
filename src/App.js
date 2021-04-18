@@ -1,18 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React from  'react';
 import './App.css';
-import Form from './components/Form';
+import Form from "./components/Form";
+import TodoList from "./components/TodoList";
 
-import TodoList from './components/TodoList';
-
-function App() {
-  
+export default function App() {
   return (
     <div className="App">
-      <h1>Todo</h1>Form
-      <Form />
-      <TodoList />
+      <h1>todo</h1>
+     <Form />
+     <TodoList />
     </div>
   );
-}
-
-export default App;
+}  
